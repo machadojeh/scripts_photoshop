@@ -1,9 +1,9 @@
 # Scripts para Adobe Photoshop
 
 
-O arquivo aplicar_multiplos_ajustes_jesga.jsx corresponde a um script com a finalidade de aplicar diversas layers de ajuste nas layers de um grupo, podendo este conter sublayers e até mesmo outras layers de ajuste.
+O arquivo **aplicar_multiplos_ajustes_jesga.jsx** corresponde a um script com a finalidade de aplicar diversas layers de ajuste nas layers de um grupo, podendo este conter subgrupos e até mesmo outras layers de ajuste.
 
-Para utilizá-lo, basta colocar todas as layers e grupos de layers num único grupo com as layers de ajuste a serem aplicadas acima do grupo e depois vincular todas essas camadas de ajuste ao grupo (criar layer mask). Para tal, basta utilizar o comando alt+click entre as camadas de ajuste e também entre a mais próxima do grupo e o mesmo. Ao final, colocar tudo num mesmo grupo. A seguir, selecionar todas as layers de ajuste, clicar em File -> Scripts -> Browse e abrir o arquivo aplicar_multiplos_ajustes_jesga.jsx.
+Para utilizá-lo, basta colocar todas as layers e grupos de layers num único grupo com as layers de ajuste a serem aplicadas acima do grupo e depois vincular todas essas camadas de ajuste ao grupo (criar layer mask). Para tal, basta utilizar o comando *alt+click* entre as camadas de ajuste e também entre a mais próxima do grupo e o mesmo. Ao final, colocar tudo num mesmo grupo. A seguir, selecionar todas as layers de ajuste, clicar em *File -> Scripts -> Browse* e abrir o arquivo **aplicar_multiplos_ajustes_jesga.jsx**.
 
 IMPORTANTE: dentre as layers envolvidas não podem haver layers invisíveis ou com atributo de cor estabelecido (sugiro clicar no grupo com o botão direito do mouse e selecionar a opção "No color").
 
