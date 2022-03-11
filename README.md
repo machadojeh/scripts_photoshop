@@ -11,7 +11,7 @@ A configuração para execução do script deve ficar mais ou menos assim:
 
 ![alt text](https://github.com/machadojeh/scripts_photoshop/blob/main/imgs/config_layers.png?raw=true)
 
-ATENÇÃO!
+##ATENÇÃO!
 
 O script funciona para a maioria dos casos, porém, há alguns em que não funciona 100% como deveria, os quais não consegui identificar o motivo ainda. Estou disponibilizando o código como cortesia pois ele tem me ajudado bastante, porém, sei que carece de diversos ajustes quanto à funcionalidade e desempenho. Fiquem à vontade para alterá-lo e promover melhorias!
 
