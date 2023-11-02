@@ -21,15 +21,15 @@ CASOS:
 
 * **Grupo "pessoas":** as layers ou grupos que se encontram dentro de um grupo chamado "pessoas" no arquivo no qual será executado o script, darão origem a estruturas pré-definidas dentro do grupo "roupas_pessoas" do arquivo **estruturas_base.psd**. Aqui, para cada layer/ grupo o script cria uma estrutura de mesmo nome, com conteúdo da estrutura referente à roupa indicada, que deve proceder o nome da layer/ grupo.
 
-Exemplo: layer/grupo "menina_calca" dá origem a uma estrutura de nome "menina" igual a estrutura "calca" que se encontra dentro do grupo "roupas pessoas" do arquivo **estruturas_base.psd**.
+	Exemplo: layer/grupo "menina_calca" dá origem a uma estrutura de nome "menina" igual a estrutura "calca" que se encontra dentro do grupo "roupas pessoas" do arquivo **estruturas_base.psd**.
 
-Caso não haja roupa de mesmo nome, uma mensagem de erro será exibida.
+	Caso não haja roupa de mesmo nome, uma mensagem de erro será exibida.
 
 * **Grupo "animais":** cada layer ou grupo que se encontra dentro de um grupo chamado "animais" no arquivo no qual será executado o script, dará origem a uma estrutura pré-definida no arquivo **estruturas_base.psd** de nome "animal", porém, com o nome da layer/ grupo inicial.
 
 * **Objetos pré-definidos:** 
-	* **Layers:** as layers que possuírem nome igual a qualquer uma das estruturas pré-definidas no arquivo **estruturas_base.psd** dentro de seu grupo "objetos", darão origem à respectiva estrutura.
-	* **Grupos:** os grupos que possuírem nome igual a uma das supracitadas estruturas, porém, seguido por "s" (ex.: arvores), darão origem a um grupo de mesmo nome, onde cada layer ou grupo que se encontra dentro do grupo original dará origem a uma estrutura correspondente ao objeto de nome do grupo que a contém (sem o s). Os nomes de cada uma dessas estruturas se mantêm.
+	* **Layers:** as layers que possuírem nome igual a qualquer uma das estruturas pré-definidas dentro do grupo "objetos" do arquivo **estruturas_base.psd**, darão origem às respectivas estruturas.
+	* **Grupos:** os grupos que possuírem nome igual a uma das supracitadas estruturas, porém, seguido por "s" (ex.: arvore[s]), darão origem a um grupo de mesmo nome, onde cada layer ou grupo que se encontra dentro do grupo original dará origem a uma estrutura correspondente ao objeto de nome do grupo que a contém (sem o s). Os nomes de cada uma dessas estruturas se mantêm.
 
 
 ## APLICAR MÚLTIPLOS AJUSTES
